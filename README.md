@@ -10,7 +10,7 @@ This web application developed with Ionic allows the users to see their favorite
 
 The web app starts with a homepage where you can find a little description and 3 buttons to choose between the different lists.
 
-<img src="README IMAGES/homepage.PNG">
+<img src="README IMAGES/HomePage2.PNG">
 
 
 
