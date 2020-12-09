@@ -10,7 +10,7 @@ This web application developed with Ionic allows the users to add their favorite
 
 The web app starts with a homepage where you can find a little description and 3 buttons to choose between the different lists.
 
-![Homepage](/READMEIMAGES/homepage.PNG)
+
 
 ## SERIES SELECTOR
 
