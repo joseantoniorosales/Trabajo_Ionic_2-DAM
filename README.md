@@ -1,2 +1,12 @@
-# Trabajo_Ionic_2-DAM
-Trabajo realizado en ionic para la asignatura de acceso a datos (una vez decidida la funcionalidad de la aplicacion se le cambiará el nombre al repositorio)
+# PENDING ENTERTAINMENT LIST
+
+# INTRODUCTION
+
+This web application developed with Ionic allows the users to add their favorites series, books or videogames in different lists, allowing them to add an state like watching right now and rate the different series/books/videogames they add.
+
+# FUNCTIONALITY
+
+## HOMEPAGE
+
+The web app starts with a homepage where you can find a little description and 3 buttons to choose the different lists
+
