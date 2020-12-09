@@ -2,7 +2,7 @@
 
 # INTRODUCTION
 
-This web application developed with Ionic allows the users to add their favorites series, books or videogames in different lists, allowing them to add an state like watching right now and rate the different series/books/videogames they add.
+This web application developed with Ionic allows the users to see their favorites series, books or videogames in different lists, allowing them to set an state like watching right now and rate the different series/books/videogames they add.
 
 # FUNCTIONALITY
 
