@@ -39,4 +39,5 @@ When clicked on the button, an emergent window will appear displaying a confirma
 <img src="README IMAGES/Delete2.PNG">
 
 
-# CODE WILL BE UPLOADED ON 09/12/2020 DUE TO TECHNICAL FAILURES
+# CODE WILL BE UPLOADED ON 09/12/2020 DUE TO SOLVING SOME ERRORS
+ 
