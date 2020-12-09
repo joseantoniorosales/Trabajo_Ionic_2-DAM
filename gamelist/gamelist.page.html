@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar color="secondary">
+    <ion-title>GAMELIST</ion-title>
+
+    <ion-buttons slot="end" class="ion-padding">
+        <ion-button (click)="goEditGame()">
+        <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons> 
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-list>
+
+    <ion-item *ngFor="let t of games">
+      <ion-label>
+        <h1> <img [src]="t.img" style="width: 1000px; height: 650px;"></h1>
+        <h1> {{ t.title }} </h1>
+        <h3> Saga: {{ t.saga }} </h3>
+        <h3> SagaEntry: {{t.sagaEntry}}</h3>
+        <h3>By {{t.company}} </h3>
+      </ion-label>
+
+      <ion-button color="warning">
+        <ion-icon name="pencil" (click)="goEditGame(t.id)"></ion-icon>
+      </ion-button>
+
+      <ion-icon name="blank"></ion-icon>
+
+      <ion-button>
+        <ion-icon name="information-circle" (click)="presentAlertInfo(t)"></ion-icon>
+      </ion-button>
+
+      <ion-icon name="blank"></ion-icon>
+
+      <ion-button color="danger">
+        <ion-icon name="trash" (click)="presentAlertConfirm(t)"></ion-icon>
+      </ion-button>
+
+    </ion-item>
+  </ion-list>
+
+  <ion-button (click)="reload()" color="secondary">RELOAD</ion-button>

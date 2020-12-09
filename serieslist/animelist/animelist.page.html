@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar color="medium">
+    <ion-title>ANIMELIST</ion-title>
+
+    <ion-buttons slot="end" class="ion-padding">
+      <ion-button (click)="goEditAnime()">
+        <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-list>
+    <ion-item *ngFor="let t of animes">
+
+      <ion-label>
+        <h1> <img [src]="t.img" style="width: 1000px; height: 650px;"></h1>
+        <h1>{{ t.title }}</h1>
+        <h3> Saga: {{ t.saga }} </h3>
+        <h3> Season: {{t.season}}</h3>
+        <h3>By {{t.animationCompany}} </h3>
+      </ion-label>
+
+      <ion-button (click)="goEditAnime(t.id)" color="warning">
+        <ion-icon name="pencil"></ion-icon>
+      </ion-button>
+
+      <ion-icon name="blank"></ion-icon>
+
+      <ion-button (click)="presentAlertInfo(t)">
+        <ion-icon name="information-circle"></ion-icon>
+      </ion-button>
+
+      <ion-icon name="blank"></ion-icon>
+
+      <ion-button (click)="presentAlertConfirm(t)" color="danger">
+        <ion-icon name="trash"></ion-icon>
+      </ion-button>
+
+    </ion-item>
+  </ion-list>
+
+  <ion-button (click)="reload()" color="medium">RELOAD</ion-button>
+
+</ion-content>
